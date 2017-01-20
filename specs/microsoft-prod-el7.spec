@@ -17,7 +17,8 @@ Packager:	Microsoft Corporation
 
 
 %description
-This package contains the yum repo configuration for packages.microsoft.com GPG public key.
+This package contains the yum repo configuration 
+for packages.microsoft.com and the public GPG key.
 
 %prep
 %setup -q -T -cn %{name}-%{version}
