@@ -1,0 +1,14 @@
+Source: packages-microsoft-prod
+Maintainer: Stephen Zarkos <stephen.zarkos@microsoft.com>
+Uploaders: Stephen Zarkos <stephen.zarkos@microsoft.com>
+Section: admin
+Priority: extra
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: packages-microsoft-prod
+Architecture: all
+Depends: ${misc:Depends}
+Description: Apt configuration for packages.microsoft.com
+ This package contains the apt repo configuration 
+ for packages.microsoft.com and the public GPG key.

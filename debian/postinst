@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Adding keys via apt-key is deprecated -
+#/usr/bin/apt-key add /etc/apt/trusted.gpg.d/microsoft-prod.gpg
