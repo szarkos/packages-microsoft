@@ -17,8 +17,7 @@ Packager:	Microsoft Corporation
 
 
 %description
-This package contains the yum repo configuration 
-for packages.microsoft.com and the public GPG key.
+This package contains the yum repo configuration for packages.microsoft.com GPG public key.
 
 %prep
 %setup -q -T -cn %{name}-%{version}
@@ -51,6 +50,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Mar 10 2017 Stephen Zarkos <stephen.zarkos@microsoft.com>
+- Fix .repo file
+
 * Fri Jan 20 2017 Stephen Zarkos <stephen.zarkos@microsoft.com>
 - Initial package to include repo configuraiton and GPG key
 
