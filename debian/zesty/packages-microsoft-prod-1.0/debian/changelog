@@ -1,0 +1,19 @@
+packages-microsoft-prod (1.0-3) stable; urgency=medium
+
+  * Typo fix
+
+ -- Stephen Zarkos <stephen.zarkos@microsoft.com>  Mon, 27 Nov 2017 21:52:10 +0000
+
+packages-microsoft-prod (1.0-2) stable; urgency=medium
+
+  * Fix package upgrade bug:
+
+        https://github.com/Azure/azure-storage-fuse/issues/18
+
+ -- Stephen Zarkos <stephen.zarkos@microsoft.com>  Mon, 27 Nov 2017 21:51:10 +0000
+
+packages-microsoft-prod (1.0-1) stable; urgency=medium
+
+  * Initial release.
+
+ -- Stephen Zarkos <stephen.zarkos@microsoft.com>  Mon, 23 Jan 2017 21:51:10 +0000

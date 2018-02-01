@@ -9,3 +9,7 @@ fi
 if [ -f /etc/apt/trusted.gpg.d/microsoft-prod.gpg ]; then
     rm -f /etc/apt/trusted.gpg.d/microsoft-prod.gpg
 fi
+
+#DEBHELPER#
+
+exit 0

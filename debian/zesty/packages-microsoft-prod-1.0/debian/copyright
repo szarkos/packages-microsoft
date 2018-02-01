@@ -1,0 +1,12 @@
+Name: Microsoft Linux Package Repository
+Maintainer: Stephen Zarkos <stephen.zarkos@microsoft.com>
+Source: packages.microsoft.com
+Upstream-Name: packages-microsoft-prod
+
+Copyright: 2017 Microsoft Corporation
+License: Apache 2.0
+
+Files *
+Copyright: 2017 Microsoft Corporation
+License: Apache 2.0
+

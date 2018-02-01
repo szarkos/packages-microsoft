@@ -3,7 +3,7 @@ Maintainer: Stephen Zarkos <stephen.zarkos@microsoft.com>
 Uploaders: Stephen Zarkos <stephen.zarkos@microsoft.com>
 Section: admin
 Priority: extra
-Standards-Version: 3.9.2
+Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9)
 
 Package: packages-microsoft-prod

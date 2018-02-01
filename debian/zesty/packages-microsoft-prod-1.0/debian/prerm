@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+if [ -f /etc/apt/sources.list.d/microsoft-prod.list ]; then
+    rm -f /etc/apt/sources.list.d/microsoft-prod.list
+fi
+
+if [ -f /etc/apt/trusted.gpg.d/microsoft-prod.gpg ]; then
+    rm -f /etc/apt/trusted.gpg.d/microsoft-prod.gpg
+fi
+
+#DEBHELPER#
+
+exit 0

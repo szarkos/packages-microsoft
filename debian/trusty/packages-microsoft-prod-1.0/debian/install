@@ -1,0 +1,2 @@
+microsoft-prod.list   /etc/apt/sources.list.d
+microsoft-prod.gpg    /etc/apt/trusted.gpg.d

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    install)
+        if [ -f /etc/apt/sources.list.d/microsoft-prod.list ]; then
+            rm -f /etc/apt/sources.list.d/microsoft-prod.list
+        fi
+
+        if [ -f /etc/apt/trusted.gpg.d/microsoft-prod.gpg ]; then
+            rm -f /etc/apt/trusted.gpg.d/microsoft-prod.gpg
+        fi
+        ;;
+
+    *)
+        exit 0
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0
+
+
